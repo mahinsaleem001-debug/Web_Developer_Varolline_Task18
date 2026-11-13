@@ -1,0 +1,15 @@
+{
+  "name": "lockbox-auth-audit",
+  "version": "1.0.0",
+  "description": "A session-based auth system, attacked and fixed. Task 18: Authentication and Authorization Audit.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "start:vulnerable": "node src/server.js --vulnerable",
+    "audit": "node audit/run.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^4.21.2" }
+}
